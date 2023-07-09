@@ -1,3 +1,20 @@
 {
-    "dotnet.defaultSolution": "dotnet-rpg.sln"
+    "dotnet.defaultSolution": "dotnet-rpg.sln",
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "ABJNOTE",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "ABJ",
+            "database": "RPG",
+            "username": "sa",
+            "password": "ABJ010359"
+        }
+    ]
 }
